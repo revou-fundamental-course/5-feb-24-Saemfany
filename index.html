@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempereture Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+
+    <div class="container">
+        <div class="title">
+            <div class="title-1"></div>
+            <div class="title-2"></div>
+            <div class="title-3">
+                <h1>Temperature<br>Converter</h1>
+                <div class="title-3-1">
+                    Celsius<span class="title-span1"> Reamur </span>
+                </div>
+                <div class="title-3-2">
+                    Fahrenheit<span class="title-span2"> Kelvin </span>
+                </div>
+            </div>
+        </div>
+                
+        <div class="InputOutput">
+            <form id="temperatureForm" onsubmit="convertTemperature(); return false;">
+                <div class="form-group">
+                  <label for="temperature">Temperature:</label>
+                  <input type="text" id="temperature" name="temperature" required>
+                  <span id="temperatureError" class="error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="fromUnit">From:</label>
+                  <select id="fromUnit" name="fromUnit">
+                    <option value="celsius">Celsius</option>
+                    <option value="reamur">Reamur</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="toUnit">To:</label>
+                  <select id="toUnit" name="toUnit">
+                    <option value="celsius">Celsius</option>
+                    <option value="reamur">Reamur</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                  </select>
+                </div>
+                <input type="submit" value="Convert">
+            </form>
+        </div>
+        
+        <div class="expl">
+            <h3>Result:</h3>
+            <div class="result" id="result"></div>
+            <!-- <div>
+                <p id="explanation"></p>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>

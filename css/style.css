@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #2980b9, #2c3e50); /* Gradient background */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    position: relative;
+}
+
+.title-1 {
+    opacity:0.5;
+    position:absolute;
+    left:50px;
+    top:-10px;
+    width:300px;
+    height:150px;
+    background-color:#40B3DF;
+}
+
+.title-2 {
+    opacity:0.3;
+    position:absolute;
+    left:120px;
+    top:20px;
+    width:100px;
+    height:170px;
+    background-color:#73AD21;
+}
+
+.title-3 {
+    margin-top:30px;
+    width:360px;
+    height:130px;
+    padding:20px;
+    border-radius:10px;
+    border:10px solid #EE872A;
+    font-size:120%;
+}
+
+.title-3-1 {
+    color:#40B3DF;
+    letter-spacing:12px;
+    font-size:15px;
+    position:relative;
+    left:25px;
+    top:25px;
+}
+
+.title-3-2 {
+    color:#B4009E;
+    letter-spacing:12px;
+    font-size:15px;
+    position:relative;
+    left:25px;
+    top:30px;
+}
+
+.title-span1 {
+    background-color:#B4009E;
+    color:#ffffff;
+}
+
+.title-span2 {
+    background-color:#40B3DF;
+    color:#ffffff;
+}
+
+.InputOutput {
+    margin-top: 80px;
+    width:360px;
+    /* height:auto; */
+    padding:20px;
+    border-radius:10px;
+    border:10px solid #EE872A;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+    /* text-align: center; */
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}
+
+.expl {
+    margin-top: 50px;
+    width:360px;
+    height:auto;
+    padding:0 20px 0 20px;
+    border-radius:10px;
+    border:10px solid #EE872A;
+}
+
+
+  
