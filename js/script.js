@@ -98,35 +98,4 @@ function convertTemperature() {
             }
             break;
     }
-  
-    // resultElement.textContent = "Result: " + result.toFixed(2) + " " + toUnit;
-
-    // switch (unit) {
-    //     case "celcius":
-    //         explanation.innerHTML = "Celcius = " + temperature + "°C<br>";
-    //         explanation.innerHTML += "Reamur = Celcius × 4/5 = " + temperature + " × 4/5 = " + (temperature * 4/5) + "°R<br>";
-    //         explanation.innerHTML += "Fahrenheit = (" + temperature + " x 9/5) + 32 = " + ((temperature * 9/5) + 32) + "°F<br>";
-    //         explanation.innerHTML += "Kelvin = " + (temperature + 273.15) + "°K";
-    //         break;
-    //     case "reamur":
-    //         explanation.innerHTML = "Reamur = " + temperature + "°R<br>";
-    //         explanation.innerHTML += "Celcius = " + (temperature * 5/4) + "°C<br>";
-    //         explanation.innerHTML += "Fahrenheit = " + ((temperature * 9/4) + 32) + "°F<br>";
-    //         explanation.innerHTML += "Kelvin = " + ((temperature * 5/4) + 273.15) + "°K";
-    //         break;
-    //     case "fahrenheit":
-    //         explanation.innerHTML = "Fahrenheit = " + temperature + "°F<br>";
-    //         explanation.innerHTML += "Celcius = " + ((temperature - 32) * 5/9) + "°C<br>";
-    //         explanation.innerHTML += "Reamur = " + ((temperature - 32) * 4/9) + "°R<br>";
-    //         explanation.innerHTML += "Kelvin = " + ((temperature - 32) * 5/9 + 273.15) + "°K";
-    //         break;
-    //     case "kelvin":
-    //         explanation.innerHTML = "Kelvin = " + temperature + "°K<br>";
-    //         explanation.innerHTML += "Celcius = " + (temperature - 273.15) + "°C<br>";
-    //         explanation.innerHTML += "Reamur = " + ((temperature - 273.15) * 4/5) + "°R<br>";
-    //         explanation.innerHTML += "Fahrenheit = " + ((temperature - 273.15) * 9/5 + 32) + "°F";
-    //         break;
-    //     default:
-    //         explanation.textContent = "Invalid unit.";
-    // }
 }
